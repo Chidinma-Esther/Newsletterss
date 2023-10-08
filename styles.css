@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(235, 18%, 26%);
+}
+p, h1, li, h2, input, label, .subscribe, .dismiss{
+    color: hsl(234, 29%, 20%)   ;
+}
+h1{
+    padding-bottom: 1rem;
+}
+h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+p{
+    padding-bottom: 0.5rem;
+    font-size: 16px;
+}
+/* sign up from start */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 2rem;
+    width: 45%;
+    height: 58vh;
+    margin:9rem auto;
+}
+p img{
+    width:1.2rem;
+    /* font-size: 16px; */
+    padding-right: 0.4rem;
+}
+.second-part img{
+    width: 14rem;
+    height: rem;
+    margin:0 1rem 0 1.3rem;
+}
+/* first part */
+.first-part{
+    padding-left: 2rem;
+}
+.join{
+    padding-bottom: 0.8rem;
+}
+form{
+    padding-top: 1rem;
+}
+input{
+    margin: 0.3rem 0 0.7rem;
+    padding: 0.5rem 8rem 0.5rem 0.3rem;   
+    border: 0.2px solid ;
+    border-radius: 0.5rem;
+}
+.error-state{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    display: none;
+    color: hsl(4, 100%, 67%) ;
+}
+.subscribe{
+    padding: 0.8rem 3.6rem;
+    background-color: hsl(234, 29%, 20%)   ;
+    border-radius: 0.5rem;
+    color: hsl(0, 0%, 100%) ;
+    border: none;
+}
+.subscribe:hover{
+    background-color: hsl(4, 100%, 67%) ;
+}
+
+
+/* success section*/
+.success {
+    background-color: hsl(0, 0%, 100%);
+    width: 24%;
+    height: 15%;
+    margin: 30rem auto;
+    border-radius: 1.8rem;
+    padding: 2rem;
+}
+. mobile-success{
+  /*    display:none;
+    background-color:hsl(0,0%,100%)*/
+}
+.hide{
+    display:none;
+}
+.second-icon{
+    width: 2rem;
+    padding-bottom: 1.5rem;
+}
+.dismiss{
+    margin-top: 2rem;
+    padding: 0.6rem 4.5rem;
+    background-color:  hsl(4, 100%, 67%)  ;
+    border-radius: 0.3rem;
+    color: hsl(0, 0%, 100%) ;
+    border: none;
+}
+.confirmation{
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+
+
+
+/* mobile view*/
+
+    .mobile-container{
+        margin: 0 auto;
+        background-color:hsl(0, 0%, 100%) ;
+        border-radius: 1.5rem;
+        width: 24%;
+        display: none;
+    }
+   .mobile-image img{
+    width: 22.7rem;
+   } 
+   .mobile-second-part{
+    padding: 2rem 1.8rem 1.5rem 1.6rem;
+    background-color:hsl(0, 0%, 100%) ;
+   }
+   .join{
+padding-bottom: 1.4rem;
+   }
+   .product{
+    padding-bottom: 1.5rem;
+   }
+   p .mobile-icon{
+    width: 1.4rem;
+    text-align: left;
+   }
+   .news{
+        padding: 0.9rem 4.2rem;
+        background-color: hsl(234, 29%, 20%)   ;
+        border-radius: 0.5rem;
+        color: hsl(0, 0%, 100%) ;
+        border: none;
+        font-size: 11.9px;
+   }
+   .news:hover{
+    background-color: hsl(4, 100%, 67%) ;
+   }
+
+
+
+
+   /* media query */
+   @media screen and (max-width: 480px){
+    .mobile-container{
+        display: contents;
+    }
+    .container{
+        display: none;
+    }
+   }
+
+    
+   
